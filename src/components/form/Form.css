@@ -1,0 +1,8 @@
+.form {
+  display: block;
+  box-sizing: border-box;
+  padding: 35px;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+}

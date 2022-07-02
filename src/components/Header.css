@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+  padding: 0.1rem 1rem;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  background-color: #fc456a;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.navbar-nav {
+  display: flex;
+  /* display: -ms-flexbox; */
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+}
