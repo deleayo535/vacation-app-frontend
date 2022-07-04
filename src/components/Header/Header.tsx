@@ -7,6 +7,7 @@ import {
 } from "@ant-design/icons";
 import { Fragment } from "react";
 import "./Header.css";
+import Lists from "./headerlist";
 
 function Header() {
   return (
@@ -21,14 +22,24 @@ function Header() {
       </div>
       <header className="header">
         <h1 className="content">Vacation Rental</h1>
-        <ul className="navbar-nav">
-          <li>Home</li>
-          <li>About</li>
-          <li>Services</li>
-          <li>Apartment Room</li>
-          <li>Blog</li>
-          <li>Contact</li>
-        </ul>
+        <Lists
+          items={[
+            "Home",
+            "About",
+            "Services",
+            "Apartment Room",
+            "Blog",
+            "Contact",
+          ]}
+        />
+        {/* <ul className="navbar-nav ul">
+          <li className="li">Home</li>
+          <li className="li">About</li>
+          <li className="li">Services</li>
+          <li className="li">Apartment Room</li>
+          <li className="li">Blog</li>
+          <li className="li">Contact</li>
+        </ul> */}
       </header>
     </Fragment>
   );

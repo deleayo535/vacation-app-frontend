@@ -2,7 +2,23 @@
   display: block;
   box-sizing: border-box;
   padding: 35px;
-  width: 100%;
+  width: 35%;
   background: #fff;
   border-radius: 5px;
+  position: absolute;
+}
+
+.form-fill {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.h1 {
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-size: 1.75rem;
+  font-family: "Playfair Display", serif;
 }
