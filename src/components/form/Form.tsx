@@ -1,19 +1,15 @@
 import "antd/dist/antd.css";
 import { Button, Form, Input, Select, TimePicker } from "antd";
-import React, { Fragment, useState } from "react";
+import React from "react";
 import "./Form.css";
 
-type LayoutType = Parameters<typeof Form>[0]["layout"];
-
 const Forms: React.FC = () => {
-  const [form] = Form.useForm();
-
-  const onFinish = (fieldsValue: any) => {
-    const values = {
-      ...fieldsValue,
-      "time-picker": fieldsValue["time-picker"].format("HH:mm"),
-    };
-  };
+  // const onFinish = (fieldsValue: any) => {
+  //   const values = {
+  //     ...fieldsValue,
+  //     "time-picker": fieldsValue["time-picker"].format("HH:mm"),
+  //   };
+  // };
 
   return (
     <Form>

@@ -1,15 +1,29 @@
 import React from "react";
 
-import { Container, Card, Row, Col, Button } from "react-bootstrap";
+import { Container, Card, Col, Button } from "react-bootstrap";
 import pic1 from "../../xservices1.jpg";
+
+const styles = {
+  card: {
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: "3rem",
+    width: "15rem",
+  },
+  cardImage: {
+    width: "15rem",
+    objectFit: "cover",
+    borderRadius: 10,
+  },
+};
 
 function CardView() {
   return (
     <>
       <Container>
         <Col md="4">
-          <Card style={{ width: "18rem" }}>
-            <Card.Img src={pic1} />
+          <Card style={styles.card}>
+            <Card.Img src={pic1} style={styles.cardImage} />
             <Card.Body>
               <Card.Title>Map Direction</Card.Title>
               <Card.Text>
