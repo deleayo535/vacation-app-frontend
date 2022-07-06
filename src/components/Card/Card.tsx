@@ -1,72 +1,58 @@
+import { Card, Row, Col, Button } from "antd";
 import React from "react";
+import pic1 from "../../xservices1.jpg";
+import pic2 from "../../xservices2.jpg";
+import pic3 from "../../xservices3.jpg";
 
-// const Card: React.FC<{ items: string[] }> = (props) => {
+const { Meta } = Card;
 
-//   return (
-//     <div>
-//       {props.items.map((item)=>(
-//         <h3>{item}</h3>
-//       ))}
-//     </div>
-// <Fragment>
-//   <div className="row">
-//     <div className="wrap card">
-//       <div className="img">
-//         {/* <img src="%PUBLIC_URL%/xservices1.jpg" /> */}
-//         <img src={pic1} />
-//       </div>
-//       <div>
-//         <h4>
-//           <span>Map Direction</span>
-//         </h4>
-//         <p>
-//           Even the all-powerful Pointing has no control about the blind
-//           texts it is an almost unorthographic.
-//         </p>
-//         <p>
-//           <Button>Read more</Button>
-//         </p>
-//       </div>
-//     </div>
-//     <div>
-//       <div className="img">
-//         {/* <img src="%PUBLIC_URL%/xservices1.jpg" /> */}
-//         <img src={pic2} />
-//       </div>
-//       <div>
-//         <h4>
-//           <span>Accomodation Services</span>
-//         </h4>
-//         <p>
-//           Even the all-powerful Pointing has no control about the blind
-//           texts it is an almost unorthographic.
-//         </p>
-//         <p>
-//           <Button>Read more</Button>
-//         </p>
-//       </div>
-//     </div>
-//     <div>
-//       <div className="img">
-//         {/* <img src="%PUBLIC_URL%/xservices1.jpg" /> */}
-//         <img src={pic3} />
-//       </div>
-//       <div>
-//         <h4>
-//           <span>Map Direction</span>
-//         </h4>
-//         <p>
-//           Even the all-powerful Pointing has no control about the blind
-//           texts it is an almost unorthographic.
-//         </p>
-//         <p>
-//           <Button>Read more</Button>
-//         </p>
-//       </div>
-//     </div>
-//   </div>
-// </Fragment>
-//   );
-// }
+const Cards: React.FC = () => (
+  <div className="site-card-wrapper">
+    <Row gutter={16}>
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: 340 }}
+          cover={<img alt="pics" src={pic1} />}
+        >
+          <Meta
+            title="Map Direction"
+            description="Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic."
+          />
+          <Button>Read More</Button>
+        </Card>
+      </Col>
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: 340 }}
+          cover={<img alt="example" src={pic2} />}
+        >
+          <Meta
+            title="Accomodation Services"
+            description="Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic."
+          />
+          <Button>Read More</Button>
+        </Card>
+      </Col>
+      <Col span={8}>
+        <Card
+          hoverable
+          style={{ width: 340 }}
+          cover={<img alt="example" src={pic3} />}
+        >
+          <Meta
+            title="Great Experience"
+            description="Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic."
+          />
+          <Button>Read More</Button>
+        </Card>
+      </Col>
+    </Row>
+  </div>
+);
 
-// export default Card;
+export default Cards;

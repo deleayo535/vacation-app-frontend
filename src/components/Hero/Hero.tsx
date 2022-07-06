@@ -1,6 +1,7 @@
 import "./Hero.css";
 import React from "react";
 import Forms from "../form/Form";
+import CardView from "../Card/CardView";
 
 function Hero(props: any) {
   return (
@@ -14,6 +15,7 @@ function Hero(props: any) {
       <div className="grid-child">
         <Forms />
       </div>
+      <div>{/* <CardView /> */}</div>
     </div>
   );
 }

@@ -2,15 +2,14 @@ import React from "react";
 
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-// import Card from "./components/Card/Card";
-import CardView from "./components/Card/CardView";
+import Cards from "./components/Card/Card";
 
 function App() {
   return (
     <div>
       <Header />
       <Hero />
-      <CardView />
+      <Cards />
     </div>
   );
 }

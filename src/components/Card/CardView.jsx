@@ -1,22 +1,33 @@
 import { Fragment } from "react";
 
-import { Container, Grid, Card, Col, Button } from "react-bootstrap";
+import { Container, Card, Col, Button } from "react-bootstrap";
 import pic1 from "../../xservices1.jpg";
+import pic2 from "../../xservices2.jpg";
+import pic3 from "../../xservices3.jpg";
 
 const styles = {
+  container: {
+    display: "grid",
+    gridTemplateRows: "1fr 1fr 1fr",
+    gridGap: "10px",
+    position: "absolute",
+    width: "30%",
+    boxSizing: "border-box !important",
+  },
   card: {
-    display: "block",
     backgroundColor: "#fff",
     borderRadius: "0.5rem",
-    padding: "3rem",
-    width: "20rem",
+    padding: "2rem",
+    width: "18rem",
     height: "24rem",
     textAlign: "center",
+    margin: "1.5rem",
     boxShadow: "0px 10px 27px -9px",
   },
+
   cardImage: {
-    width: "15rem",
-    objectFit: "cover",
+    width: "14rem",
+    objectFit: "center",
     borderRadius: "0.2rem",
   },
 
@@ -38,25 +49,47 @@ const styles = {
     fontFamily: "serif",
     marginBlockStart: "1em",
     marginBlockEnd: "1em",
-    marginnBottom: "0.5rem",
+    marginnBottom: "0.4rem",
   },
 
-  containerSize: {
-    dislay: "grid",
-    gridTemplateColumns: "1fr 1fr 1fr",
-    gridGap: 20px,
-  },
+  // containerSize: {
+  //   dislay: "grid",
+  //   gridTemplateColumns: "1fr 1fr 1fr",
+  //   gridGap: "20px",
+  // },
 };
 
 function CardView() {
   return (
-    <Fragment style={styles.containerSize}>
-      <Container>
+    <Fragment style={styles.container}>
+      <Container className="grid-child">
         <Col>
           <Card style={styles.card}>
-            <Card.Img src={pic1} style={styles.cardImage} />
-            <Card.Body>
+            <Card.Img
+              src={pic1}
+              style={styles.cardImage}
+              class="card-img-top"
+              alt="Card image cap"
+            />
+            <Card.Body class="card-block">
               <Card.Title style={styles.cardTitle}>Map Direction</Card.Title>
+              <Card.Text style={styles.cardText}>
+                Even the all-powerful Pointing has no control about the blind
+                texts it is an almost unorthographic.
+              </Card.Text>
+              <Button variant="secondary">Read More</Button>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Container>
+      <Container className="grid-child">
+        <Col>
+          <Card style={styles.card}>
+            <Card.Img src={pic2} style={styles.cardImage} />
+            <Card.Body>
+              <Card.Title style={styles.cardTitle}>
+                Accomodation Services
+              </Card.Title>
               <Card.Text style={styles.cardText}>
                 Even the all-powerful Pointing has no control about the blind
                 texts it is an almost unorthographic.
@@ -66,27 +99,12 @@ function CardView() {
           </Card>
         </Col>
       </Container>
-      <Container>
+      <Container className="grid-child">
         <Col>
           <Card style={styles.card}>
-            <Card.Img src={pic1} style={styles.cardImage} />
+            <Card.Img src={pic3} style={styles.cardImage} />
             <Card.Body>
-              <Card.Title style={styles.cardTitle}>Map Direction</Card.Title>
-              <Card.Text style={styles.cardText}>
-                Even the all-powerful Pointing has no control about the blind
-                texts it is an almost unorthographic.
-              </Card.Text>
-              <Button variant="primary">Read More</Button>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Container>
-      <Container>
-        <Col>
-          <Card style={styles.card}>
-            <Card.Img src={pic1} style={styles.cardImage} />
-            <Card.Body>
-              <Card.Title style={styles.cardTitle}>Map Direction</Card.Title>
+              <Card.Title style={styles.cardTitle}>Great Experience</Card.Title>
               <Card.Text style={styles.cardText}>
                 Even the all-powerful Pointing has no control about the blind
                 texts it is an almost unorthographic.

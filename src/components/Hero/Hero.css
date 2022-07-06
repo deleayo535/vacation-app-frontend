@@ -1,6 +1,6 @@
 .hero-wrap {
   background-image: url(https://preview.colorlib.com/theme/vacationrental/images/xbg_1.jpg.pagespeed.ic.ZaS6JLR_0b.webp);
-  height: 665px;
+  height: 565px;
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -14,8 +14,8 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
 }
 
 /* .hero-display {
@@ -29,6 +29,7 @@
   font-size: 80px;
   font-weight: 700;
   color: #fff;
+  width: 40rem;
   font-family: "Playfair Display", serif;
   line-height: 1.3;
   box-sizing: border-box;
@@ -40,7 +41,6 @@
 .text-h2 {
   font-size: 18px;
   line-height: 1.5;
-  margin-bottom: 0.5rem;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 300;
   color: #fff;
