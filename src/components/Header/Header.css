@@ -1,12 +1,14 @@
 .header {
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  align-items: baseline;
   justify-content: space-between;
   background-color: #fff;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
   padding: 0.1rem 1rem;
+  margin-bottom: -1rem;
 }
 
 .ul {
@@ -31,8 +33,9 @@
 
 .wrap {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: space-between !important;
+  justify-content: space-between;
   background-color: #fc456a;
   padding: 0.5rem 1rem;
   display: block;

@@ -14,11 +14,11 @@ function Header() {
     <Fragment>
       <div className="wrap">
         <div>afolabi4luv98@gmail.com</div>
-        <div>
+        {/* <div>
           <TwitterOutlined />
           <FacebookOutlined />
           <InstagramOutlined />
-        </div>
+        </div> */}
       </div>
       <header className="header">
         <h1 className="content">Vacation Rental</h1>
