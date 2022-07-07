@@ -1,0 +1,54 @@
+.section-head {
+  text-align: center;
+  margin: 0px;
+}
+
+.section {
+  padding: 7em 0;
+  position: relative;
+
+  background: #f3f4f7;
+  background-color: #f8f9fa !important;
+  display: block;
+  box-sizing: border-box;
+}
+
+.heading-section {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.room {
+  margin-top: 5%;
+}
+
+.room-li {
+  list-style: none;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+
+.room-h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+
+.room-p {
+  padding: 0.2rem;
+}
+.bt {
+  display: inline-block;
+  color: #000000;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
