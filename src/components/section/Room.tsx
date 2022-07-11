@@ -2,10 +2,10 @@ import "./Room.css";
 import Roomlist from "./Roomlist";
 import { StarFilled } from "@ant-design/icons";
 import { Row, Col, Button } from "antd";
-import pic4 from "../../xroom-1.jpg";
-import pic5 from "../../xroom-2.jpg";
-import pic6 from "../../xroom-3.jpg";
-import pic7 from "../../xroom-4.jpg";
+import pic4 from "../images/xroom-1.jpg";
+import pic5 from "../images/xroom-2.jpg";
+import pic6 from "../images/xroom-3.jpg";
+import pic7 from "../images/xroom-4.jpg";
 
 function Room() {
   return (
