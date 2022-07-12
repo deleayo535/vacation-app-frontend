@@ -1,4 +1,46 @@
-.feedback {
+.testimonial {
   display: flex;
-  justify-items: stretch;
+  justify-items: normal;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 0.2rem;
+}
+
+.testimonial-img {
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  padding: 1rem;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 500;
+  color: gray;
+}
+
+.testimonial-name {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 1rem;
+  margin-bottom: 0;
+  color: #000000;
+}
+
+.testimonial-position {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  padding: 0 1rem;
+  font-weight: 400;
+  color: gray;
 }
