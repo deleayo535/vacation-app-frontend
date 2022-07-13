@@ -8,6 +8,7 @@ import Feed from "./components/Feedback/feeds";
 import Recommend from "./components/sectionB/recommend";
 import Booking from "./components/sectionC/booking";
 import News from "./components/sectionD/news";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Recommend />
       <Booking />
       <News />
+      <Footer />
     </div>
   );
 }
