@@ -1,0 +1,90 @@
+.News-log {
+  background: #f3f4f7 !important;
+  padding-bottom: 100px;
+}
+
+.News-wrap {
+  margin-right: 0px;
+  padding: 4em 0;
+  position: relative;
+  background: #f3f4f7 !important;
+}
+
+.News-h2 {
+  font-size: 54px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0px;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+
+.News-p {
+  font-size: 12px;
+  display: block;
+  font-weight: 600;
+  color: #fd7792;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.News-container {
+  justify-content: center !important;
+  text-align: center;
+  width: 100%;
+  /* padding-right: 15px; */
+}
+
+.Card-wrap {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.Card {
+  /* padding: 20px; */
+  /* margin-right: 150px; */
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.Card-img {
+  width: 400px;
+  height: 280px;
+  border-radius: 4px;
+}
+
+.Card-detail {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #fff;
+}
+
+.Card-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.Card-text {
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 14px;
+  color: #fd7792;
+  line-height: 1.8;
+}
+
+.Card-p {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
+}

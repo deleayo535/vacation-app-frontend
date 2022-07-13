@@ -28,12 +28,6 @@ const Feed = (props: {
         </div>
       </div>
     </Col>
-    {/* <Col className="gutter-row" span={8}>
-            <div style={style}>col-6</div>
-            </Col>
-            <Col className="gutter-row" span={8}>
-            <div style={style}>col-6</div>
-          </Col> */}
   </Row>
 );
 
