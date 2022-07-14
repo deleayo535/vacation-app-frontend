@@ -5,13 +5,12 @@ import {
   FacebookOutlined,
   InstagramOutlined,
 } from "@ant-design/icons";
-import { Fragment } from "react";
 import "./Header.css";
-import Lists from "./headerlist";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <Fragment>
+    <div>
       <div className="wrap">
         <div>afolabi4luv98@gmail.com</div>
         {/* <div>
@@ -22,7 +21,7 @@ function Header() {
       </div>
       <header className="header">
         <h1 className="content">Vacation Rental</h1>
-        <Lists
+        {/* <Lists
           items={[
             "Home",
             "About",
@@ -31,17 +30,29 @@ function Header() {
             "Blog",
             "Contact",
           ]}
-        />
-        {/* <ul className="navbar-nav ul">
-          <li className="li">Home</li>
-          <li className="li">About</li>
-          <li className="li">Services</li>
-          <li className="li">Apartment Room</li>
-          <li className="li">Blog</li>
-          <li className="li">Contact</li>
-        </ul> */}
+        /> */}
+        <ul className="navbar-nav ul">
+          <li className="li">
+            <Link to="home">Home</Link>
+          </li>
+          <li className="li">
+            <Link to="about">About</Link>
+          </li>
+          <li className="li">
+            <Link to="serve">Services</Link>
+          </li>
+          <li className="li">
+            <Link to="room">Apartment Room</Link>
+          </li>
+          <li className="li">
+            <Link to="blog">Blog</Link>
+          </li>
+          <li className="li">
+            <Link to="contact">Contact</Link>
+          </li>
+        </ul>
       </header>
-    </Fragment>
+    </div>
   );
 }
 

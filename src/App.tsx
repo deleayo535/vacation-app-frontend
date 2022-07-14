@@ -1,26 +1,11 @@
 import React from "react";
-
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import Room from "./components/section/Room";
-import Testimonial from "./components/Feedback/Testimonial";
-import Feed from "./components/Feedback/feeds";
-import Recommend from "./components/sectionB/recommend";
-import Booking from "./components/sectionC/booking";
-import News from "./components/sectionD/news";
-import Footer from "./components/footer/footer";
+import About from "./pages/about/about";
+import Home from "./pages/home/home";
 
 function App() {
   return (
     <div>
-      <Header />
-      <Hero />
-      <Room />
-      <Testimonial />
-      <Recommend />
-      <Booking />
-      <News />
-      <Footer />
+      <Home />
     </div>
   );
 }

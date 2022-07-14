@@ -3,7 +3,7 @@ import React from "react";
 import Forms from "../form/Form";
 import Cards from "../Card/Card";
 import cart from "../Card/cart";
-import { Card, Row, Col, Button } from "antd";
+import { Row } from "antd";
 
 function Hero() {
   const cards = cart.map((item) => {
@@ -32,7 +32,9 @@ function Hero() {
             <Forms />
           </div>
         </div>
-        <div className="card-list">{cards}</div>
+        <div className="cardCon">
+          <div className="card-list">{cards}</div>
+        </div>
       </div>
     </>
   );

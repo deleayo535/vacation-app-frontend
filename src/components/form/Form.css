@@ -22,3 +22,12 @@
   font-size: 1.75rem;
   font-family: "Playfair Display", serif;
 }
+
+.form-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}

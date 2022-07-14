@@ -1,7 +1,7 @@
 .footer {
   background: #272727;
   padding-bottom: 0;
-  padding: 7em 0;
+  padding: 5em 0;
   display: block;
   box-sizing: border-box;
 }
@@ -45,8 +45,8 @@
 
 .footer-li {
   list-style: none;
-  color: rgba(255, 255, 255, 0.7);
-  padding-bottom: 0.25rem;
+  /* color: rgba(255, 255, 255, 0.7); */
+  padding-bottom: 0.3rem;
   padding-top: 0.25rem;
   padding-left: 0rem;
   font-family: "Poppins", Arial, sans-serif;
@@ -63,4 +63,12 @@
   background-color: transparent;
   border: 0.5px solid #000;
   border-radius: 2px;
+}
+
+.footer-bottom {
+  height: 200px;
+  background: #1a1a1a;
+  padding-top: 100px;
+  /* padding: 2em 0; */
+  justify-content: space-between;
 }
