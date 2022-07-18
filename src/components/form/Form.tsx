@@ -15,7 +15,7 @@ const Forms: React.FC = () => {
     <Form>
       <div className="form">
         <div>
-          <h1 className="h1">Book your Apartment</h1>
+          <h1 className="form-h1">Book your Apartment</h1>
         </div>
 
         <div className="form-wrap">
@@ -31,7 +31,7 @@ const Forms: React.FC = () => {
             </Form.Item>
           </div>
           <div className="form-flex">
-            <Form.Item name="Adult">
+            <Form.Item className="form-size" name="Adult">
               <Select placeholder="Adults">
                 <Select.Option value="demo">Adults</Select.Option>
                 <Select.Option value="demo">1</Select.Option>
@@ -41,7 +41,7 @@ const Forms: React.FC = () => {
                 <Select.Option value="demo">5</Select.Option>
               </Select>
             </Form.Item>
-            <Form.Item name="Children">
+            <Form.Item className="form-size" name="Children">
               <Select placeholder="Children">
                 <Select.Option value="demo">Children</Select.Option>
                 <Select.Option value="demo">1</Select.Option>
@@ -57,10 +57,12 @@ const Forms: React.FC = () => {
               <Input placeholder="Phone Number" />
             </Form.Item>
             <Form.Item>
-              <TimePicker placeholder="Time" />
+              <TimePicker className="form-size" placeholder="Time" />
             </Form.Item>
           </div>
-          <Button block>Book apartment now</Button>
+          <Button className="form-bt" size="large" block>
+            Book apartment now
+          </Button>
         </div>
       </div>
     </Form>

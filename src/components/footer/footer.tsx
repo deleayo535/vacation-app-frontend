@@ -1,6 +1,13 @@
 import { Button } from "antd";
 import "./footer.css";
 
+import {
+  TwitterOutlined,
+  FacebookFilled,
+  InstagramFilled,
+  HeartFilled,
+} from "@ant-design/icons";
+
 function Footer() {
   return (
     <>
@@ -12,7 +19,9 @@ function Footer() {
               A small river named Duden flows by their place and supplies it
               with the necessary regelialia.
             </p>
-            <p>Read more</p>
+            <p className="footer-p" style={{ color: "#fd7792" }}>
+              Read more
+            </p>
           </div>
           <div className="footer-div">
             <h2 className="footer-h2">Services</h2>
@@ -38,20 +47,25 @@ function Footer() {
             <h2 className="footer-h2">Subcribe</h2>
             <div>
               <h2 className="footer-h2">Follow us</h2>
+              <div className="footer-icon">
+                <TwitterOutlined className="icon-li" />
+                <FacebookFilled className="icon-li" />
+                <InstagramFilled />
+              </div>
             </div>
           </div>
         </div>
       </footer>
       <div className="footer-wrap footer-bottom">
         <div className="footer-p">
-          Copyright ©2022 All rights reserved | This template is made with by
-          Colorlib.com
+          Copyright ©2022 All rights reserved | This template is made with{" "}
+          <HeartFilled />
         </div>
         <div>
           <ul className="footer-wrap">
-            <li className="footer-li">Terms</li>
-            <li className="footer-li">Privacy</li>
-            <li className="footer-li">Compliances</li>
+            <li className="footer-li footer-last">Terms</li>
+            <li className="footer-li footer-last">Privacy</li>
+            <li className="footer-li footer-last">Compliances</li>
           </ul>
         </div>
       </div>

@@ -11,10 +11,10 @@ function Booking() {
           It’s safe to book online with us! Get your dream stay in clicks or
           drop us a line with your questions.
         </p>
-        <Button type="primary" className="Booking-but">
+        <Button size="large" className="Booking-but">
           Book Now
         </Button>
-        <Button type="primary">Contact Us</Button>
+        <Button size="large">Contact Us</Button>
       </div>
     </div>
   );

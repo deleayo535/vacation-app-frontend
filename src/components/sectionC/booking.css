@@ -41,5 +41,7 @@
 }
 
 .Booking-but {
-  color: orangered;
+  background-color: #fd7792;
+  color: #fff;
+  margin-right: 20px;
 }

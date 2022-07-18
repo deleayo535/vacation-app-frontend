@@ -7,8 +7,14 @@
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
-  padding: 0.1rem 1rem;
-  margin-bottom: -1rem;
+  padding: 0rem 1rem;
+  /* margin-bottom: -1rem; */
+}
+
+.header-h1 {
+  font-weight: 750;
+  font-size: 26px;
+  line-height: 1;
 }
 
 .ul {
@@ -26,7 +32,7 @@
   padding-left: 20px;
   padding-right: 20px;
   font-weight: 400;
-  color: #4d4d4d;
+  color: #4d4d4d !important;
   position: relative;
   opacity: 1 !important;
 }
@@ -49,6 +55,6 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
+  /* -webkit-box-orient: horizontal; */
+  /* -webkit-box-direction: normal; */
 }

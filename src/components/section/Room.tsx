@@ -6,8 +6,18 @@ import pic4 from "../images/xroom-1.jpg";
 import pic5 from "../images/xroom-2.jpg";
 import pic6 from "../images/xroom-3.jpg";
 import pic7 from "../images/xroom-4.jpg";
+import React, { useState } from "react";
+import { log } from "console";
 
 function Room() {
+  const handleMouseEnter = (e: any) => {
+    e.target.style.background = "#fd7792";
+  };
+
+  const handleMouseLeave = (e: any) => {
+    e.target.style.background = "";
+  };
+
   return (
     <div className="section-head">
       <div className="section">

@@ -20,7 +20,10 @@ function Header() {
         </div> */}
       </div>
       <header className="header">
-        <h1 className="content">Vacation Rental</h1>
+        <h1 className="header-h1">
+          <span style={{ color: "black" }}>Vacation</span>
+          <span style={{ color: "#fd7792" }}>Rental</span>
+        </h1>
         {/* <Lists
           items={[
             "Home",
@@ -33,22 +36,22 @@ function Header() {
         /> */}
         <ul className="navbar-nav ul">
           <li className="li">
-            <Link to="home">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li className="li">
-            <Link to="about">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li className="li">
-            <Link to="serve">Services</Link>
+            <Link to="/serve">Services</Link>
           </li>
           <li className="li">
-            <Link to="room">Apartment Room</Link>
+            <Link to="/room">Apartment Room</Link>
           </li>
           <li className="li">
-            <Link to="blog">Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li className="li">
-            <Link to="contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </header>

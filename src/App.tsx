@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Home />
+      {/* <Map /> */}
     </div>
   );
 }
