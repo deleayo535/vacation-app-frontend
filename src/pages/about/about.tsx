@@ -7,6 +7,7 @@ import { Row } from "antd";
 import Testimonial from "../../components/Feedback/Testimonial";
 import Recommend from "../../components/sectionB/recommend";
 import Footer from "../../components/footer/footer";
+import { Link } from "react-router-dom";
 
 function About() {
   const cards = cart.map((item) => {
@@ -28,7 +29,7 @@ function About() {
         <div className="About-content">
           <p className="About-span">
             <span>
-              <a href="#">Home</a>
+              <Link to="/home">Home</Link>
             </span>
             <span>About us</span>
           </p>

@@ -1,6 +1,5 @@
 import "./testimonial.css";
 import "../section/Room.css";
-import { Row, Col } from "antd";
 import Feed from "./feeds";
 import items from "./items";
 

@@ -1,7 +1,7 @@
 import pic10 from "../images/xperson1.jpg";
 import pic11 from "../images/xperson2.jpg";
 import pic12 from "../images/xperson4.jpg";
-import pic13 from "../images/person3.jpg";
+// import pic13 from "../images/person3.jpg";
 
 export default [
   {

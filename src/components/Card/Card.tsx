@@ -1,4 +1,4 @@
-import { Card, Row, Col, Button } from "antd";
+import { Card, Row, Button } from "antd";
 import React from "react";
 import "./Card.css";
 

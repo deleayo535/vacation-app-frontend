@@ -1,6 +1,7 @@
 import "../about/about.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/footer/footer";
+import { Link } from "react-router-dom";
 
 function Contact() {
   return (
@@ -10,7 +11,7 @@ function Contact() {
         <div className="About-content">
           <p className="About-span">
             <span>
-              <a href="#">Home</a>
+              <Link to="/home">Home</Link>
             </span>
             <span>Contact</span>
           </p>

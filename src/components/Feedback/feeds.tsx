@@ -1,4 +1,4 @@
-import { Card, Row, Col } from "antd";
+import { Row, Col } from "antd";
 import React from "react";
 import "./testimonial.css";
 import "../section/Room.css";
@@ -20,7 +20,7 @@ const Feed = (props: {
   <Row gutter={16}>
     <Col className="gutter-row" span={8}>
       <div style={style} className="testimonial-container">
-        <img src={props.image} className="testimonial-img" />
+        <img src={props.image} alt="" className="testimonial-img" />
         <div>
           <p className="testimonial-text">{props.text}</p>
           <p className="testimonial-name">{props.name}</p>

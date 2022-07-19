@@ -3,7 +3,7 @@ import React from "react";
 import Forms from "../form/Form";
 import Cards from "../Card/Card";
 import cart from "../Card/cart";
-import { Row, Button } from "antd";
+import { Row } from "antd";
 
 function Hero() {
   const cards = cart.map((item) => {

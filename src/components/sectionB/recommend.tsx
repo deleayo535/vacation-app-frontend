@@ -7,7 +7,7 @@ function Recommend() {
   return (
     <div className="recomment-container">
       <div className="recomment-div">
-        <img src={img} className="recomment-img" />
+        <img src={img} alt="" className="recomment-img" />
         <h2 className="recomment-h2">The most recommended vacation rental</h2>
         <p className="recomment-p">
           A small river named Duden flows by their place and supplies it with
